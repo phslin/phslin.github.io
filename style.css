@@ -233,6 +233,36 @@ footer {
     letter-spacing: -1px;
     text-shadow: 0 2px 8px #00bfae11;
 }
+.qr-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0.7rem;
+    margin-bottom: 0.5rem;
+}
+.qr-label {
+    font-size: 0.95rem;
+    color: #1877f2;
+    margin-bottom: 0.2rem;
+    font-weight: 500;
+    letter-spacing: 0.1px;
+}
+.qr-code {
+    width: 80px;
+    height: 80px;
+    border-radius: 8px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+    background: #fff;
+    margin-bottom: 0.2rem;
+}
+.products-title, .products-grid, .product-card, .product-card h3, .product-desc, .product-features, .qr-label {
+    font-family: 'Poppins', 'Inter', 'Segoe UI', Arial, sans-serif !important;
+}
+
+body, h1, h2, h3, h4, h5, h6, nav, header, main, section, footer, .nav-links, .cta, input, textarea, button, form, .contact-info, .products-title, .products-grid, .product-card, .product-card h3, .product-desc, .product-features, .qr-label {
+    font-family: 'Poppins', 'Inter', 'Segoe UI', Arial, sans-serif !important;
+}
+
 @media (max-width: 900px) {
     .products-grid {
         flex-direction: column;
